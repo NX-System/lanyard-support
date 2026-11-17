@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Email support
+    url: mailto:support@nxsysdev.com
+    about: Prefer not to post publicly? Email us instead.
+  - name: Security issue
+    url: https://github.com/NX-System/lanyard-support/blob/main/SECURITY.md
+    about: Report security problems by email, never in a public issue.
+  - name: Downloads and release notes
+    url: https://github.com/NX-System/lanyard-releases/releases
+    about: Get the latest build before filing.

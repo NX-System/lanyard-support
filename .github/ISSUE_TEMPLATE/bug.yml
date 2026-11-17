@@ -1,0 +1,41 @@
+name: Bug report
+description: Something in Lanyard is broken or behaves wrongly.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Tip: filing from Settings → Support inside Lanyard attaches the version, macOS and redacted diagnostics for you.
+  - type: input
+    id: version
+    attributes:
+      label: Lanyard version and build
+      placeholder: "0.4.1 (13), from Settings → About"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "macOS 26.1"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the popover
+        2. Switch to profile B
+        3. ...
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots, error banners, whether it happens every time. Remove anything private.
